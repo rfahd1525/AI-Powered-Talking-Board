@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spirit Board - Commune with the Beyond</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Talking Board</h1>
+        <p class="subtitle">Dare to ask the spirits...</p>
+
+        <div class="board-wrapper" id="boardWrapper">
+            <div class="board-container">
+                <img src="Board.png" alt="Ouija Board" class="board" id="board">
+                <img src="planchette.png" alt="Planchette" class="planchette" id="planchette">
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="input-group">
+                <input type="text" id="messageInput" placeholder="Ask the spirits a question..." maxlength="1000" />
+                <button id="sendBtn">Contact Spirits</button>
+            </div>
+            <div id="status" class="status"></div>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

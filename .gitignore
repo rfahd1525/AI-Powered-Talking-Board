@@ -1,0 +1,11 @@
+# API Configuration (contains secret keys)
+config.js
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
