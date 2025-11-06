@@ -1,6 +1,6 @@
 # Talking Board
 
-An interactive AI-powered Ouija board that lets you communicate with the spirits of the beyond. This web application uses OpenAI's GPT-4 to generate responses from a persistent spirit character that maintains conversation context throughout your session.
+An interactive AI-powered Ouija board that lets you communicate with spirits. This web application uses OpenAI's GPT-4 to generate responses from a persistent spirit character that maintains conversation context throughout your session.
 
 ## Features
 
