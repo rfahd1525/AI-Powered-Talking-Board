@@ -97,8 +97,6 @@ You can modify these in [script.js](script.js#L114-L119) if you want different r
 
 ## Security Notes
 
-- Never commit your `config.js` file with your actual API key
-- Consider implementing rate limiting for production use
 - OpenAI API usage will incur costs based on your usage
 - The API key is exposed in client-side code. For production, implement a backend proxy
 
